@@ -7,8 +7,7 @@ Twitter at <https://twitter.com/texmonk>.
 <!-- This README file is generated automatically using src/readme.py -->
 
 
-0001
-----
+## 0001
 
 After setting up TeX Live, create a document. Paste this into a file
 named `foo.tex`:
@@ -29,9 +28,12 @@ pdflatex foo
 
 Open `foo.pdf` to see the output.
 
+![LaTeX Example Screenshot 0001][IMG0001]
 
-0002
-----
+[IMG0001]: https://opendocs.github.io/texmonk/png/0001.png
+
+
+## 0002
 
 In TeX and LaTeX, the hash symbol denotes macro parameters, e.g., `#1`,
 `#2`, etc. Use the escape sequence `\#` to typeset literal hash symbol.
@@ -47,6 +49,10 @@ Example:
 \end{document}
 
 ```
+
+![LaTeX Example Screenshot 0002][IMG0002]
+
+[IMG0002]: https://opendocs.github.io/texmonk/png/0002.png
 
 
 License

@@ -4,6 +4,6 @@
 
 {{ content }}
 
-![LaTeX Example Screenshot {{ id }}][PNG{{ id }}]
+![LaTeX Example Screenshot {{ id }}][IMG{{ id }}]
 
-[PNG{{ id }}]: https://opendocs.github.io/texmonk/png/{{ id }}.png
+[IMG{{ id }}]: https://opendocs.github.io/texmonk/png/{{ id }}.png
