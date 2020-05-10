@@ -7,7 +7,6 @@ png: clean
 	mv main.png "$$(basename $$(pwd)).png"
 	make view FILE="$$(basename $$(pwd)).pdf"
 	make view FILE="$$(basename $$(pwd)).png"
-	make clean
 
 deps:
 	rm -rf texmf texmfvar ~/Library/texlive
