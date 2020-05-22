@@ -100,7 +100,7 @@ def main():
     post_template = fread('src/post-template.md')
 
     items = []
-    for dirpath in sorted(glob.glob('src/[0-9]*')):
+    for dirpath in sorted(glob.glob('src/[0-9]*'), reverse=True):
         post = read_post(dirpath, 'post.md')
         item = render(post_template, **post)
         items.append(item)

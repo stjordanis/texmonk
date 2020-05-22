@@ -7,29 +7,25 @@ Twitter at <https://twitter.com/texmonk>.
 <!-- This README file is generated automatically using src/readme.py -->
 
 
-## 0001
+## 0003
 
-After setting up TeX Live, create a document. Paste this into a file
-named `foo.tex`:
+In TeX and LaTeX, the dollar symbol delimits mathematics formulas. Use the
+escape sequence `\$` to typeset literal dollar symbol.
+
+Example:
 
 ```tex
 \documentclass{article}
 \begin{document}
-Lorem ipsum
+Euler's identity: $ e^{i \pi} + 1 = 0 $.
+
+I have \$10.
 \end{document}
 ```
 
-Then run this:
+![LaTeX Example Screenshot 0003][IMG0003]
 
-```shell
-pdflatex foo
-```
-
-Open `foo.pdf` to see the output.
-
-![LaTeX Example Screenshot 0001][IMG0001]
-
-[IMG0001]: https://opendocs.github.io/texmonk/png/0001.png
+[IMG0003]: https://opendocs.github.io/texmonk/png/0003.png
 
 
 ## 0002
@@ -53,25 +49,29 @@ Example:
 [IMG0002]: https://opendocs.github.io/texmonk/png/0002.png
 
 
-## 0003
+## 0001
 
-In TeX and LaTeX, the dollar symbol delimits mathematics formulas. Use the
-escape sequence `\$` to typeset literal dollar symbol.
-
-Example:
+After setting up TeX Live, create a document. Paste this into a file
+named `foo.tex`:
 
 ```tex
 \documentclass{article}
 \begin{document}
-Euler's identity: $ e^{i \pi} + 1 = 0 $.
-
-I have \$10.
+Lorem ipsum
 \end{document}
 ```
 
-![LaTeX Example Screenshot 0003][IMG0003]
+Then run this:
 
-[IMG0003]: https://opendocs.github.io/texmonk/png/0003.png
+```shell
+pdflatex foo
+```
+
+Open `foo.pdf` to see the output.
+
+![LaTeX Example Screenshot 0001][IMG0001]
+
+[IMG0001]: https://opendocs.github.io/texmonk/png/0001.png
 
 
 License
