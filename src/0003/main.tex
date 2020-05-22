@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{paperwidth=8.16in,paperheight=4.59in,margin=0.25in}
+\pagenumbering{gobble}
+\usepackage[x11names]{xcolor}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\lstdefinestyle{tex}{
+    language=[latex]tex,
+    basicstyle=\ttfamily\color{LightBlue1},
+    texcsstyle=*\color{Plum1},
+    identifierstyle=\color{DarkSlateGray1},
+    keywordstyle=\color{Magenta1},
+    stringstyle=\color{LightSalmon1},
+    commentstyle=\color{PaleGreen1},
+    columns=fullflexible,
+    keepspaces=true,
+    upquote=true,
+    showstringspaces=false,
+}
+\newcommand{\texfile}[2][]{\lstinputlisting[style=tex,#1]{#2}}
+\begin{document}
+\Huge
+
+\begin{tcolorbox}[colback=black!85]
+\texfile{ex.tex}
+\end{tcolorbox}
+
+\begin{tcolorbox}[boxsep=0.05in,colback=white]
+\input{ex.tmp}
+\end{tcolorbox}
+
+\end{document}
