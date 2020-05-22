@@ -17,7 +17,6 @@ named `foo.tex`:
 \begin{document}
 Lorem ipsum
 \end{document}
-
 ```
 
 Then run this:
@@ -47,7 +46,6 @@ Example:
 \hello{world}                      % macro usage
 \#                                 % literal hash sign
 \end{document}
-
 ```
 
 ![LaTeX Example Screenshot 0002][IMG0002]
@@ -69,7 +67,6 @@ Euler's identity: $ e^{i \pi} + 1 = 0 $.
 
 I have \$10.
 \end{document}
-
 ```
 
 ![LaTeX Example Screenshot 0003][IMG0003]

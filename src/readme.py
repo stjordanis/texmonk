@@ -80,7 +80,7 @@ def read_post(dirpath, filename):
         if line.startswith('@include'):
             include_filename = line.split()[1]
             include_content = fread(os.path.join(dirpath, include_filename))
-            processed.append(include_content)
+            processed.append(include_content.strip())
         else:
             processed.append(line)
     content['content'] = '\n'.join(processed)
