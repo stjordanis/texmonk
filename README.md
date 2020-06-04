@@ -7,9 +7,32 @@ Twitter at <https://twitter.com/texmonk>.
 <!-- This README file is generated automatically using src/readme.py -->
 
 
+## 0004
+
+In TeX and LaTeX, the percent sign starts a comment. Use the escape
+sequence `\%` to typeset literal percent sign.
+
+Example:
+
+```tex
+\documentclass{article}
+\begin{document}
+% This is a comment.
+
+This is 100% not a comment.
+
+This is 100\% not a comment.
+\end{document}
+```
+
+![LaTeX Example Screenshot 0004][IMG0004]
+
+[IMG0004]: https://opendocs.github.io/texmonk/png/0004.png
+
+
 ## 0003
 
-In TeX and LaTeX, the dollar symbol delimits mathematics formulas. Use the
+In TeX and LaTeX, the dollar sign delimits mathematics formulas. Use the
 escape sequence `\$` to typeset literal dollar symbol.
 
 Example:
