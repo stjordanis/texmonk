@@ -1,3 +1,5 @@
+all: png readme
+
 png: clean
 	grep -v '\\documentclass\|\\begin{document}\|\\end{document}' \
 	    < ex.tex > ex.tmp
@@ -9,6 +11,9 @@ png: clean
 	make view FILE="$$(basename $$(pwd)).png"
 	cp "$$(basename $$(pwd)).png" ../../../site-texmonk/png/
 	make clean
+
+readme:
+	cd ../.. && make readme
 
 deps:
 	rm -rf texmf texmfvar ~/Library/texlive
