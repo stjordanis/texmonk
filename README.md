@@ -19,7 +19,7 @@ Example:
 \begin{document}
 % This is a comment.
 
-This is 62% not a comment.
+This is 38% not a comment.
 
 This is 100\% not a comment.
 \end{document}
